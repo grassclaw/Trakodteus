@@ -1,11 +1,25 @@
+// ICEBOX --> tags use firebase
+// {
+//     userId: 1,
+//     post: [...{tag}]
+// }
+
+
 // Portfolio Links
     // Object of Links
 var LinksObj = {1:"", 2:"RPS-Multiplayer/", 3:"Word-Guess-Game/", 4:"unti-4-game/", 5:"", 6:"gifytopia/", 7:"GilaMonster1/#", 8:"TriviaGame/"};
 
-var button_my_button = "#loadMore";
-$(button_my_button).click(function(){
- window.location.href='https://shadowlaq.github.io/'+LinksObj[this];
+// var button_my_button = "#loadMore";
+
+$(".portfolio").on("click",function(){
+    // It's grabbing the portfolio id for some reason.
+    var webPath =$(this).attr("value");
+    if (1 in LinksObj) {
+        // Do what you want pizza?
+    }
+    window.location.href='https://shadowlaq.github.io/'+LinksObj[webPath];
 });
+
 // Secondary button events
     //Load More Button 
 var load_my_load = "#loadMore";
@@ -30,12 +44,12 @@ function myMap()
 }
 
 // Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
+// function onClick(element) {
+//   document.getElementById("img01").src = element.src;
+//   document.getElementById("modal01").style.display = "block";
+//   var captionText = document.getElementById("caption");
+//   captionText.innerHTML = element.alt;
+// }
 
 // Change style of navbar on scroll
 window.onscroll = function() {myFunction()};
