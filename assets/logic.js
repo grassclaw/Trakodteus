@@ -16,8 +16,10 @@ $(".portfolio").on("click",function(){
     var webPath =$(this).attr("value");
     if (1 in LinksObj) {
         // Do what you want pizza?
+        window.location.href="https://sleepy-journey-10832.herokuapp.com"
+    }else{
+        window.location.href='https://shadowlaq.github.io/'+LinksObj[webPath];
     }
-    window.location.href='https://shadowlaq.github.io/'+LinksObj[webPath];
 });
 
 // Secondary button events
