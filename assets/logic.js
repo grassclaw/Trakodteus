@@ -14,8 +14,7 @@ var LinksObj = {1:"", 2:"RPS-Multiplayer/", 3:"Word-Guess-Game/", 4:"unti-4-game
 $(".portfolio").on("click",function(){
     // It's grabbing the portfolio id for some reason.
     var webPath =$(this).attr("value");
-    if (webPath === 1) {
-        // Do what you want pizza?
+    if (!LinksObj[webPath]) {
         window.location.href="https://sleepy-journey-10832.herokuapp.com"
     }else{
         window.location.href='https://shadowlaq.github.io/'+LinksObj[webPath];
