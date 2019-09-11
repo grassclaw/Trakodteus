@@ -16,7 +16,7 @@ $(".portfolio").on("click",function(){
     var webPath =$(this).attr("value");
     if (webPath===1) {
         window.location.href="https://sleepy-journey-10832.herokuapp.com"
-    }else if(webPath===5{
+    }else if(webPath===5){
         window.location.href="https://obscure-taiga-77615.herokuapp.com/index"
     }else{
         window.location.href='https://shadowlaq.github.io/'+LinksObj[webPath];
