@@ -1,10 +1,3 @@
-// ICEBOX --> tags use firebase
-// {
-//     userId: 1,
-//     post: [...{tag}]
-// }
-
-
 // Portfolio Links
     // Object of Links
 var LinksObj = {1:"", 2:"RPS-Multiplayer/", 3:"Word-Guess-Game/", 4:"unti-4-game/", 5:"", 6:"gifytopia/", 7:"GilaMonster1/#", 8:"TriviaGame/"};
