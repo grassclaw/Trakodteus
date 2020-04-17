@@ -1,0 +1,107 @@
+<!--This is Shadowlaq's first html-->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><!--This is what appears on your browser tab-->
+    <meta charset="UTF-8"> <!--This is where we set what character set to interpret unicode: 8-bit Unicode Transformation Format-->
+    <title>My First Attempt</title> <!--This will be the name of the tab when not pinned-->
+</head>
+
+<!--You'll notice we use the word "div" interchangeably with html tags such as the <body below>.
+    That's because they're simply specialized divs.
+    When you call a straight <div> it is a block level element so will therefore create a new html line
+    that will span the full width of its parent element by default.-->
+
+<body><!--The body div should hold the content of the page (links, text, etc.) and is what actually gets displayed-->
+    <header><!--This will be the biggest headline on the page; like the title of a chapter in a book.-->
+    <!--There is h1 through h4. They go bigger to smaller and come with default styling that you can overwrite with CSS-->
+        <h1>In the Shadows</h1>
+    </header>
+
+    <!--Since we often reserve <h1> for the <header>. Lets use <h2> for section headlines.-->
+    <h2>Logo</h2>
+        <!--Now I'm going to insert an image (my logo)-->
+    <!--src stands for source where you put the path to your image-->
+    <!--alt stands for "alternative" which is text that will appear if the image is unable to load-->
+    <img src="Icon.png" alt="The Shadow"> 
+    <br> <!--This is a line break not a paragraph seperator-->
+        
+    <!--Now we're going to demonstrate different manipulations and functions of hyperlinks-->
+    <!--The a tag defines a hyperlink. "href" is what you indicate which link for-->
+    <!--Only when href is present, can you populate attributes like "target"-->
+    <!--Target specifies where to open the link such as a new tab-->
+    <a href="https://www.w3schools.com/tags/att_a_target.asp" target="_blank">New Tab</a><!--You can place text to appear in place of the link-->
+    <br>
+
+    <!-- Emphasized Link -->
+    <!--The "strong" tag can be added to any text or link to emphasize the text. Often this defaults to bolding it.-->
+    <strong><a href="https://codeengineered.com/blog/2013/html5-semantic-diff-bold-strong/">Emphasized Link</a></strong>
+    <br>
+
+    <!-- Placeholder link -->
+    <!-- Why? We do this often when designing a page. It helps you see the structure-->
+    <a href="#">Placeholder</a>
+
+    <!--Seperate content with a <hr> tag-->
+    <!--Designates a thematic break...like a change of topic-->
+    <hr> <!--The browser will most likely place a defining line-->
+
+    <!--Now that we have a new section designated by the <hr>. Let's throw up a new <h1>-->
+    <h1>Extra Fun</h1>
+
+    <!--We're going to practice two types of lists-->
+    
+    <h2>Ordered List</h2><!--Used when the order matters-->
+    <!--An ordered list is has numbered <li> elements.-->
+    <ol><!--Defines the list item type as ordered-->
+        <li>Direction 1</li>
+        <li>Direction 2</li>
+        <li>Direction 3</li>
+        <li>Direction 4</li>
+    </ol>
+
+    <h2>Unordered List</h2> <!--Doesn't matter what order the list is in.-->
+    <!--This is a bulleted <li> list. -->
+    <ul><!--Defines the list item type as unordered-->
+        <li>Food</li>
+        <li>Clothes</li>
+        <li>Car</li>
+        <li>Garden</li>
+    </ul>
+
+    <!--Tables can be used to list items as well-->
+    <!--Designates the start of the table-->
+    <table style="width: 100%"> <!--"style" - setting table to span window width-->
+
+        <tr><!--Row 1: Starts a new row on a table-->
+            <th colspan=7>My Schedule</th> <!--defines a colum item in that row-->
+        </tr>
+
+        <tr><!--Row 2: Starts a second row on a table-->
+            <th>Mon</th><!--defines a colum item in that row-->
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+            <th>Sun</th>
+        </tr>
+
+        <tr><!--Row 2: Starts a third row on a table-->
+            <th>Run</th> <!--Monday-->
+            <th>Weights</th> <!--Tuesday-->
+            <th>Run</th> <!--Wednesday-->
+            <th>Weights</th> <!--Thursday-->
+            <th>Run</th> <!--Friday-->
+            <th>Weights</th> <!--Saturday-->
+            <th>Rest</th> <!--Sunday-->
+        </tr>
+    </table>
+    
+    <h2>Youtube TRX Workout</h2>
+    <!--iframe element-->
+    <iframe id="ytplayer" type="text/html" width="640" height="390" src="https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com" frameborder="0" ></iframe>
+
+</body><!--Close body-->
+
+</html>

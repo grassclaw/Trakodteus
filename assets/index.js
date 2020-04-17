@@ -1,22 +1,19 @@
-// Portfolio Links
+// index.html Page Links
     // Object of Links
-var LinksObj = {1:"", 2:"RPS-Multiplayer/", 3:"Word-Guess-Game/", 4:"unti-4-game/", 5:"", 6:"gifytopia/", 7:"GilaMonster1/#", 8:"TriviaGame/"};
-
-// var button_my_button = "#loadMore";
+var IndexObj = {1:"", 2:"RPS-Multiplayer/", 3:"Word-Guess-Game/", 4:"unti-4-game/", 5:"", 6:"gifytopia/", 7:"GilaMonster1/#", 8:"TriviaGame/"};
 
 $(".portfolio").on("click",function(){
-    // It's grabbing the portfolio id for some reason.
     var webPath =$(this).attr("value");
     if (webPath===1) {
         window.location.href="https://sleepy-journey-10832.herokuapp.com"
     }else if(webPath===5){
         window.location.href="https://obscure-taiga-77615.herokuapp.com/index"
     }else{
-        window.location.href='https://shadowlaq.github.io/'+LinksObj[webPath];
+        window.location.href='https://shadowlaq.github.io/'+IndexObj[webPath];
     }
 });
 
-// Secondary button events
+// Secondary button events - Developing Projects Section
     //Load More Button 
 var load_my_load = "#loadMore";
 $(load_my_load).click(function(){
