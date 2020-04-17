@@ -15,7 +15,7 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('images/beachwalk.jpg');
+    background-image: url('images/maunakea.jpg');
     min-height: 100%;
     -webkit-filter: grayscale(75%); /* Safari 6.0 - 9.0 */
     filter: grayscale(75%);
