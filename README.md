@@ -1,56 +1,57 @@
 
-   # hellow monkeys!
-   # Table of Contents 
+# hellow monkeys!
+# Table of Contents 
 
-   *[Description](#description) 
+*[Description](#description) 
 
-   *[Installation Instructions](#Installation Instructionsnode) 
+*[Installation Instructions](#Installation Instructionsnode) 
 
-   *[usage](#usage) 
+*[usage](#usage) 
 
-   *[contribution](#contribution) 
+*[contribution](#contribution) 
 
-   *[dependencies](#dependancies) 
+*[dependencies](#dependancies) 
 
-   *[test](#test) 
+*[test](#test) 
 
-   *[username](#username) 
+*[username](#username) 
 
-   *[email](#email) 
+*[email](#email) 
 
-   *[licenses](#licenses) 
+*[licenses](#licenses) 
 
-   *[Contact for Questions](#Contact for Questions) 
+*[Contact for Questions](#Contact for Questions) 
 
- <span style="color:blue">## Description</span>
-    asdf
-<span style="color:red">some **This is Red Bold.** text</span>
+
+<span style="color:blue">## Description</span>
+asdf
+
+
 ## Installation
-   alinfiwenefs df then to do the do the nalsndlfnasd
+alinfiwenefs df then to do the do the nalsndlfnasd
 
 ## Usage
-   saldif
+saldif
 
-    ## Contribution
-    sdlfk
+## Contribution
+sdlfk
 
-    ## Dependancies
-    ;lkajsdf
-    
-    ## Test
-    asdf asdfi
-    
-    ## Username
-    bob
-    
-    ## Email
-    john
-    
-    ## License
-    ![Github license](https://img.shields.io/badge/liscence-Mozilla-blue.svg)
+## Dependancies
+;lkajsdf
 
-    ## Questions
+## Test
+asdf asdfi
 
-    If you have any questions about the repo, open an issue or contact me directly at john. You can find more of my work at [bob](https://github.com/bob)
+## Username
+bob
 
-    
+## Email
+john
+
+## License
+![Github license](https://img.shields.io/badge/liscence-Mozilla-blue.svg)
+
+## Questions
+
+If you have any questions about the repo, open an issue or contact me directly at john. You can find more of my work at [bob](https://github.com/bob)
+
